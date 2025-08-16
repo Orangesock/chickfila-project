@@ -1,55 +1,55 @@
-ChickfilAProject
+# Chickfila-Project
 
-ChickfilAProject is a simple web application that allows users to view the 
-Chick-fil-A menu, place orders, check order status, and contact customer 
-support. The project uses HTML, CSS, and JavaScript to provide an 
-interactive experience for online orders.
+Chickfila-Project is a front-end web application that simulates an online 
+ordering system for Chick-fil-A. Users can browse the menu, add items to 
+their cart, check order status, and contact customer support. The project 
+is built with HTML, CSS, and JavaScript.
 
-Features
+## Features
 
-Semantic display of menu items with prices
-Add items to a cart with quantity selection
-Checkout summary with total calculation
-Order status simulation based on input
-Customer support form with validation
+- Browse Chick-fil-A menu 🍗  
+- Add items to a cart with quantity selection 🛒  
+- Checkout summary with total price calculation 💰  
+- Check order status by order number or email 📋  
+- Contact customer support through a form ✉️  
+- Responsive design for desktop and mobile 📱  
 
-Project Structure
+## Project Structure
 
-ChickfilAProject/
+chickfila-project/
 │
-├── index.html          Main homepage with navigation and order prompt
-├── order.html          Menu and order form
-├── status.html         Order status check page
-├── support.html        Customer support contact page
-├── style.css           Stylesheet for layout, colors, and buttons
-├── script.js           JavaScript for cart, checkout, and form 
-handling
-├── .gitignore          Files and directories ignored by Git
-└── README.md           Project description and instructions
+├── index.html        # Home page
+├── order.html        # Order menu page
+├── status.html       # Order status page
+├── support.html      # Customer support page
+├── style.css         # CSS styling
+├── script.js         # JavaScript functionality
+├── README.md         # Project documentation
+└── .gitignore        # Git ignore file
 
-Setup
+## Setup
 
-1. Clone the repository:
+Clone the repository and open the project in a browser:
+
 git clone https://github.com/Orangesock/chickfila-project.git
 cd chickfila-project
+open index.html  # On Mac
+# Or double-click index.html in your file explorer
 
-2. Open the HTML files in a web browser:
-Open index.html to start using the application.
+## Usage
 
-Usage
+- Click "Order Now" to view the menu 🍔  
+- Enter quantities and add items to the cart 🛒  
+- Click "Checkout" to see a summary of your order 🧾  
+- Use "Check Order Status" with your order number or email to see status 
+📬  
+- Fill out "Customer Support" form to send a message ✉️  
 
-Navigate through the pages using the menu:
-index.html - Home page
-order.html - Select menu items and add to cart
-status.html - Check your order status
-support.html - Contact customer support
+## Contributing
 
-Contributing
-
-To contribute:
-Fork the repository
-Create a new branch for your feature
-Make changes and commit them
-Push the branch to your fork
-Open a pull request to merge your changes
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature/my-feature`)  
+3. Commit your changes (`git commit -am 'Add feature'`)  
+4. Push to the branch (`git push origin feature/my-feature`)  
+5. Open a Pull Request
 
