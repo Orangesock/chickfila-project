@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+  This file was developed with assistance from ChatGPT.
+  I have reviewed and understand all the code in this file.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Order Chick-fil-A</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Chick-fil-A</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.html">Order Now</a></li>
+        <li><a href="status.html">Check Order Status</a></li>
+        <li><a href="support.html">Customer Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Menu</h2>
+    <form id="order-form">
+      <div class="menu-item">
+        <h3>Chicken Sandwich</h3>
+        <p>Classic Chick-fil-A sandwich with pickles.</p>
+        <p>$4.50</p>
+        <label for="qty-sandwich">Quantity:</label>
+        <input type="number" id="qty-sandwich" name="qty-sandwich" min="0" value="0" />
+        <button type="button" class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <h3>Waffle Fries</h3>
+        <p>Crispy and golden waffle fries.</p>
+        <p>$2.50</p>
+        <label for="qty-fries">Quantity:</label>
+        <input type="number" id="qty-fries" name="qty-fries" min="0" value="0" />
+        <button type="button" class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <h3>Nuggets</h3>
+        <p>8 or 12 pieces of delicious nuggets.</p>
+        <p>$5.00</p>
+        <label for="qty-nuggets">Quantity:</label>
+        <input type="number" id="qty-nuggets" name="qty-nuggets" min="0" value="0" />
+        <button type="button" class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <h3>Spicy Chicken Sandwich</h3>
+        <p>Spicy, crispy chicken breast on a toasted bun.</p>
+        <p>$5.00</p>
+        <label for="qty-spicy">Quantity:</label>
+        <input type="number" id="qty-spicy" name="qty-spicy" min="0" value="0" />
+        <button type="button" class="add-btn">Add to Cart</button>
+      </div>
+      
+      <div class="menu-item">
+        <h3>Lemonade</h3>
+        <p>Refreshing classic Chick-fil-A lemonade.</p>
+        <p>$1.75</p>
+        <label for="qty-lemonade">Quantity:</label>
+        <input type="number" id="qty-lemonade" name="qty-lemonade" min="0" value="0" />
+        <button type="button" class="add-btn">Add to Cart</button>
+      </div>
+
+      <button type="submit" class="checkout-btn">Checkout</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
