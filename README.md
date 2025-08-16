@@ -1,55 +1,58 @@
-# Chickfila-Project
+# Chick-fil-A Online Ordering System
 
-Chickfila-Project is a front-end web application that simulates an online 
-ordering system for Chick-fil-A. Users can browse the menu, add items to 
-their cart, check order status, and contact customer support. The project 
-is built with HTML, CSS, and JavaScript.
+This is a web-based system for browsing the menu, placing orders, checking 
+order status, and contacting customer support. Built with **HTML, CSS, and 
+JavaScript**, this project simulates an online ordering experience.
 
 ## Features
 
-- Browse Chick-fil-A menu 🍗  
-- Add items to a cart with quantity selection 🛒  
-- Checkout summary with total price calculation 💰  
-- Check order status by order number or email 📋  
-- Contact customer support through a form ✉️  
-- Responsive design for desktop and mobile 📱  
+- Browse menu items with prices 🍔🍟🥤  
+- Add items to a cart with quantity selection  
+- View cart item count in real-time  
+- Checkout with an order summary and total  
+- Check simulated order status  
+- Contact customer support with form validation  
 
 ## Project Structure
 
 chickfila-project/
 │
 ├── index.html        # Home page
-├── order.html        # Order menu page
-├── status.html       # Order status page
+├── order.html        # Menu and ordering page
+├── status.html       # Check order status page
 ├── support.html      # Customer support page
-├── style.css         # CSS styling
-├── script.js         # JavaScript functionality
-├── README.md         # Project documentation
-└── .gitignore        # Git ignore file
+├── style.css         # Stylesheet for all pages
+├── script.js         # JavaScript for cart, forms, and interactions
+├── .gitignore        # Git ignore file
+└── README.md         # Project documentation
 
 ## Setup
 
-Clone the repository and open the project in a browser:
+1. Clone the repository:
 
 git clone https://github.com/Orangesock/chickfila-project.git
 cd chickfila-project
-open index.html  # On Mac
-# Or double-click index.html in your file explorer
+
+2. Open `index.html` in a browser to start using the system:
+
+open index.html  # macOS  
+# or double-click index.html in your file explorer
+
+3. Optional: Modify HTML, CSS, or JS files to customize the project.
 
 ## Usage
 
-- Click "Order Now" to view the menu 🍔  
-- Enter quantities and add items to the cart 🛒  
-- Click "Checkout" to see a summary of your order 🧾  
-- Use "Check Order Status" with your order number or email to see status 
-📬  
-- Fill out "Customer Support" form to send a message ✉️  
+- **Browsing & ordering**: Navigate to `order.html`, select quantities, 
+and click "Add to Cart". Click "Checkout" to see your order summary.  
+- **Check order status**: Navigate to `status.html` and enter an order 
+number or email. The system simulates order stages.  
+- **Customer support**: Navigate to `support.html`, fill out the form, and 
+submit to simulate sending a message.
 
 ## Contributing
 
 1. Fork the repository  
-2. Create a new branch (`git checkout -b feature/my-feature`)  
-3. Commit your changes (`git commit -am 'Add feature'`)  
+2. Create a branch (`git checkout -b feature/my-feature`)  
+3. Commit changes (`git commit -am 'Add feature'`)  
 4. Push to the branch (`git push origin feature/my-feature`)  
-5. Open a Pull Request
-
+5. Open a Pull Request  
