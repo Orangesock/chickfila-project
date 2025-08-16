@@ -1,58 +1,54 @@
 # Chick-fil-A Online Ordering System
 
-This is a web-based system for browsing the menu, placing orders, checking 
-order status, and contacting customer support. Built with **HTML, CSS, and 
-JavaScript**, this project simulates an online ordering experience.
+A web-based system for browsing the menu, placing orders, checking order status, and contacting customer support. Built with **HTML, CSS, and JavaScript**, this project simulates an online ordering experience.
 
 ## Features
 
 - Browse menu items with prices 🍔🍟🥤  
 - Add items to a cart with quantity selection  
-- View cart item count in real-time  
-- Checkout with an order summary and total  
-- Check simulated order status  
-- Contact customer support with form validation  
+- Real-time cart updates  
+- Checkout with order summary and total  
+- Simulated order status tracking  
+- Contact customer support via form  
 
 ## Project Structure
 
+```
 chickfila-project/
-│
 ├── index.html        # Home page
 ├── order.html        # Menu and ordering page
 ├── status.html       # Check order status page
 ├── support.html      # Customer support page
-├── style.css         # Stylesheet for all pages
-├── script.js         # JavaScript for cart, forms, and interactions
+├── style.css         # Stylesheet
+├── script.js         # Cart and form functionality
 ├── .gitignore        # Git ignore file
 └── README.md         # Project documentation
+```
 
-## Setup
+## Getting Started
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/Orangesock/chickfila-project.git
 cd chickfila-project
+```
 
-2. Open `index.html` in a browser to start using the system:
+2. Open `index.html` in a browser to start:
 
-open index.html  # macOS  
-# or double-click index.html in your file explorer
+```bash
+open index.html  # macOS
+```
 
-3. Optional: Modify HTML, CSS, or JS files to customize the project.
+3. Optional: Customize HTML, CSS, or JS files.
 
 ## Usage
 
-- **Browsing & ordering**: Navigate to `order.html`, select quantities, 
-and click "Add to Cart". Click "Checkout" to see your order summary.  
-- **Check order status**: Navigate to `status.html` and enter an order 
-number or email. The system simulates order stages.  
-- **Customer support**: Navigate to `support.html`, fill out the form, and 
-submit to simulate sending a message.
+- **Ordering**: Go to `order.html`, select items and quantities, then click "Checkout" for a summary.  
+- **Order Status**: Go to `status.html` and enter an order number or email to see simulated status.  
+- **Customer Support**: Go to `support.html`, fill the form, and submit to simulate sending a message.
 
-## Contributing
+## Notes
 
-1. Fork the repository  
-2. Create a branch (`git checkout -b feature/my-feature`)  
-3. Commit changes (`git commit -am 'Add feature'`)  
-4. Push to the branch (`git push origin feature/my-feature`)  
-5. Open a Pull Request  
+- This project is for educational purposes and portfolio display.  
+- All order handling and status checks are simulated with JavaScript.
