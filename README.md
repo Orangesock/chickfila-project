@@ -1,61 +1,55 @@
-Chick-fil-A Online Ordering System
+ChickfilAProject
 
-This is a web-based simulation of a Chick-fil-A online ordering system 
-built with HTML, CSS, and JavaScript. The project demonstrates front-end 
-web development skills, including interactive forms, DOM manipulation, and 
-basic order management logic.
+ChickfilAProject is a simple web application that allows users to view the 
+Chick-fil-A menu, place orders, check order status, and contact customer 
+support. The project uses HTML, CSS, and JavaScript to provide an 
+interactive experience for online orders.
 
-Features:
+Features
 
-- Home Page (index.html): Welcome page with navigation to order, status, 
-and support pages.
-- Order Page (order.html):
-  - Browse menu items (Chicken Sandwich, Waffle Fries, Nuggets, Spicy 
-Chicken Sandwich, Lemonade)
-  - Add items to a dynamic cart
-  - View total quantity in cart
-  - Checkout with a summary of the order
-- Order Status Page (status.html):
-  - Enter order number or email to view a simulated order status
-  - Status changes based on the last character of the input for 
-demonstration purposes
-- Customer Support Page (support.html):
-  - Fill out a form with name, email, and message
-  - Form validates required fields and email format
-  - Displays a confirmation message when submitted
-- Responsive Navigation: Highlighting the current page in the menu
-- Interactive Cart: Updates dynamically as items are added
+Semantic display of menu items with prices
+Add items to a cart with quantity selection
+Checkout summary with total calculation
+Order status simulation based on input
+Customer support form with validation
 
-Technologies Used:
+Project Structure
 
-- HTML5 – Page structure and forms
-- CSS3 – Styling, layout, and responsive design
-- JavaScript – DOM manipulation, form validation, cart management, order 
-status simulation
+ChickfilAProject/
+│
+├── index.html          Main homepage with navigation and order prompt
+├── order.html          Menu and order form
+├── status.html         Order status check page
+├── support.html        Customer support contact page
+├── style.css           Stylesheet for layout, colors, and buttons
+├── script.js           JavaScript for cart, checkout, and form 
+handling
+├── .gitignore          Files and directories ignored by Git
+└── README.md           Project description and instructions
 
-How to Use:
+Setup
 
 1. Clone the repository:
-   git clone https://github.com/Orangesock/chickfila-project.git
-2. Open index.html in a web browser to access the site.
-3. Navigate through pages using the top menu:
-   - Order Now to select items
-   - Check Order Status to see simulated order updates
-   - Customer Support to submit a message
+git clone https://github.com/Orangesock/chickfila-project.git
+cd chickfila-project
 
-Note: This project is a simulation and does not process real payments or 
-orders.
+2. Open the HTML files in a web browser:
+Open index.html to start using the application.
 
-Project Structure:
+Usage
 
-chickfila-project/
-│
-├─ index.html        # Home page
-├─ order.html        # Order menu and checkout
-├─ status.html       # Order status page
-├─ support.html      # Customer support page
-├─ style.css         # Styling for all pages
-├─ script.js         # JavaScript functionality for cart, forms, and 
-navigation
-└─ .gitignore        # Files/folders ignored by Git
+Navigate through the pages using the menu:
+index.html - Home page
+order.html - Select menu items and add to cart
+status.html - Check your order status
+support.html - Contact customer support
+
+Contributing
+
+To contribute:
+Fork the repository
+Create a new branch for your feature
+Make changes and commit them
+Push the branch to your fork
+Open a pull request to merge your changes
 
