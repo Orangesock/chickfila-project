@@ -104,6 +104,10 @@ body {
   .add-btn:hover {
     background-color: #990000;
   }
+
+  .add-btn:disabled {
+    cursor: default;
+  }
   
   /* Checkout button (also used for other submit buttons) */
   .checkout-btn {

@@ -1,8 +1,9 @@
 //script.js
 
 // This JavaScript code was developed with assistance from ChatGPT.
-// I am actively reviewing and learning the functionality in this file.
+// I have reviewed and understand all the code in this file.
 
+// ---------- Add to Cart Functionality with Quantity ----------
 // ---------- Add to Cart Functionality with Quantity ----------
 const cart = [];
 const cartCountElem = document.createElement('div');
@@ -20,6 +21,9 @@ document.body.appendChild(cartCountElem);
 
 document.querySelectorAll('.add-btn').forEach(button => {
   button.addEventListener('click', () => {
+    // Disable the button immediately after clicking
+    button.disabled = true;
+
     const menuItem = button.closest('.menu-item');
     const itemName = menuItem.querySelector('h3').textContent;
     const itemPriceText = menuItem.querySelector('p:nth-of-type(2)').textContent;
@@ -31,6 +35,16 @@ document.querySelectorAll('.add-btn').forEach(button => {
 
     if (quantity <= 0) {
       alert('Please select a quantity greater than 0.');
+      button.disabled = false; // Re-enable button if quantity is invalid
+      return;
+    }
+
+    // --- $125 LIMIT CHECK ---
+    const currentTotal = cart.reduce((sum, item) => sum + item.price, 0);
+    const newTotal = currentTotal + (itemPrice * quantity);
+    if (newTotal > 125) {
+      alert("Adding this item to your order will exceed this restaurant's maximum order limit of $125.00. We cannot add this item to your order. Please adjust the quantity or edit your order.");
+      button.disabled = false;
       return;
     }
 
@@ -48,6 +62,7 @@ document.querySelectorAll('.add-btn').forEach(button => {
 
     setTimeout(() => {
       addedMsg.remove();
+      button.disabled = false; // Re-enable button after message disappears
     }, 1500);
   });
 });
