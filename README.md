@@ -1,8 +1,12 @@
 # Chick-fil-A Online Ordering System
 
+<<<<<<< HEAD
 A web-based system for browsing the menu, placing orders, checking order 
 status, and contacting customer support. Built with **HTML, CSS, and 
 JavaScript**, this project simulates an online ordering experience.
+=======
+A web-based system for browsing the menu, placing orders, checking order status, and contacting customer support. Built with **HTML, CSS, and JavaScript**, this project simulates an online ordering experience.
+>>>>>>> 85c372bbc2b5581b5e6ffb4be8c03a9b0a904ba0
 
 ## Features
 
@@ -46,6 +50,7 @@ open index.html  # macOS
 
 ## Usage
 
+<<<<<<< HEAD
 - **Ordering**: Go to `order.html`, select items and quantities, then 
 click "Checkout" for a summary.  
 - **Order Status**: Go to `status.html` and enter an order number or email 
@@ -54,3 +59,13 @@ to see simulated status.
 simulate sending a message.
 
 
+=======
+- **Ordering**: Go to `order.html`, select items and quantities, then click "Checkout" for a summary.  
+- **Order Status**: Go to `status.html` and enter an order number or email to see simulated status.  
+- **Customer Support**: Go to `support.html`, fill the form, and submit to simulate sending a message.
+
+## Notes
+
+- This project is for educational purposes and portfolio display.  
+- All order handling and status checks are simulated with JavaScript.
+>>>>>>> 85c372bbc2b5581b5e6ffb4be8c03a9b0a904ba0
